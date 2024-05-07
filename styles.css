@@ -1,0 +1,89 @@
+/* Estilo para as notificações */
+.notification {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /* A largura da notificação é igual à largura da tela */
+  padding: 10px 20px;
+  background-color: rgba(0, 0, 0, 0.7); /* Fundo escuro com opacidade */
+  color: #fff; /* Cor do texto branca */
+  text-align: center; /* Centraliza o texto na notificação */
+  transform: translateY(
+    -100%
+  ); /* Inicialmente, a notificação é colocada fora da tela, acima da parte superior */
+  transition: transform 0.4s ease-in-out; /* Animação suave ao entrar e sair */
+  z-index: 1000; /* Garantir que a notificação fique acima de outros elementos */
+}
+
+/* Estilo para o corpo */
+body {
+  background: linear-gradient(
+    to right,
+    #ff7f50,
+    #87cefa,
+    #32cd32
+  ); /* Gradiente de três cores */
+  margin: 0; /* Remove a margem padrão do corpo */
+  display: flex; /* Centraliza os containers */
+  justify-content: center; /* Centraliza os containers horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100vh; /* Define a altura da tela inteira */
+}
+
+/* Estilo para os containers */
+.container {
+  width: 100px; /* Ajuste conforme desejado */
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%; /* Formato circular */
+  margin: 20px; /* Espaçamento entre os containers */
+  display: inline-block;
+}
+
+/* Estilo para as imagens */
+.image {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.5s linear;
+  border-radius: 50%; /* Formato circular */
+}
+
+/* Configuração das imagens e containers */
+.image1 {
+  background-image: url("https://th.bing.com/th/id/OIP.K3cessfzxFe1FPBGeXitagAAAA?rs=1&pid=ImgDetMain");
+  z-index: 2;
+}
+
+.image2 {
+  background-image: url("https://ppt.ir/wp-content/uploads/2018/04/7sbpjdm8.jpg");
+  left: -100%;
+  z-index: 1;
+}
+
+/* Configurações para as imagens e containers restantes */
+.image3 {
+  background-image: url("https://logodownload.org/wp-content/uploads/2020/04/microsoft-powerpoint-logo-0.png");
+  z-index: 2;
+}
+
+.image4 {
+  background-image: url("https://e7.pngegg.com/pngimages/860/578/png-clipart-microsoft-powerpoint-logo-wordart-microsoft-office-shared-tools-powerpoint-text-rectangle.png");
+  left: -100%;
+  z-index: 1;
+}
+
+.image5 {
+  background-image: url("https://cdn.windowsreport.com/wp-content/uploads/2020/07/Microsoft-Word-930x620.jpeg");
+  z-index: 2;
+}
+
+.image6 {
+  background-image: url("https://th.bing.com/th/id/OIP.dHj_HuZxn41jDc9GV4GVugAAAA?w=474&h=266&rs=1&pid=ImgDetMain");
+  left: -100%;
+  z-index: 1;
+}
