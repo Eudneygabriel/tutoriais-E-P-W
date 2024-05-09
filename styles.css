@@ -15,13 +15,30 @@
   z-index: 1000; /* Garantir que a notificação fique acima de outros elementos */
 }
 
+h1 {
+  font-size: 24px;
+}
+
+body {
+  font-size: 1rem; /* Tamanho da fonte base em rem */
+}
+
+h1 {
+  font-size: 2rem; /* Tamanho da fonte para cabeçalhos em rem */
+}
+
+.container {
+  width: 80%; /* Define a largura do container como 80% da tela */
+  margin: 0 auto; /* Centraliza o container */
+}
+
 /* Estilo para o corpo */
 body {
   background: linear-gradient(
     to right,
-    #ff7f50,
-    #87cefa,
-    #32cd32
+    #d4410c,
+    #0f85cf,
+    #0dc60d
   ); /* Gradiente de três cores */
   margin: 0; /* Remove a margem padrão do corpo */
   display: flex; /* Centraliza os containers */
@@ -67,7 +84,7 @@ body {
 
 /* Configurações para as imagens e containers restantes */
 .image3 {
-  background-image: url("https://logodownload.org/wp-content/uploads/2020/04/microsoft-powerpoint-logo-0.png");
+  background-image: url("https://api.softwarekeep.com/media/nimbus/helpcenter/t1.png");
   z-index: 2;
 }
 
