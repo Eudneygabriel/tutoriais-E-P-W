@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>combinações no Excel</h1>
+    <p>
+      A fórmula que vamos utilizar para calcula é a =Combin(número total de
+      elementos; número de elementos por grupo) para combinações que NÃO repetem
+      elementos, ou então =Combina(número total de elementos; número de
+      elementos por grupo) para quando você QUER REPETIR elementos no grupo.
+    </p>
+    <p>Ficou complicado, então vamos a alguns exemplos.</p>
+    <p>
+      No exemplo abaixo vou pedir para o Excel me retornar o número de
+      combinações em duplas não repetidas que podemos formar em um grupo total
+      de 10 elementos. Para visualizar o exemplo imagine com letras novamente.
+      Temos A, B C, D, E, F, G, H, I, J como grupo de elementos e como desejamos
+      duplas não repetidas vamos ter AB, AC, AD.... IJ.
+    </p>
+    <img src="imagem7.jpeg" alt="image" height="170" width="250" />
+    <p>
+      Reparou na fórmula? Vejaque no campo "número total de elementos" eu fiz
+      referência à célula que continha esse dado e depois inseri o valor "2" no
+      campo "número de elementos por grupo". Ou seja, com esse "2" eu informei
+      ao Excel que desejo calcular duplas. Se eu quisesse trios, por exemplo,
+      ABC, DEF, GHI... eu colocaria o "3".
+    </p>
+    <p>Veja o resultado:</p>
+    <img src="imagem8.jpeg" alt="image" height="150" width="200" />
+    <p>
+      gora que já sabemos como usar as funções estamos prontos para calcular as
+      combinações de um volante da Mega-Sena que deixamos em aberto desde o
+      início do texto. Vamos usar a =Combin(), pois, como sabemos, na Mega os
+      números não podem repetir. Já no campo de "número de elementos" vamos
+      inserir o 6, pois este é a quantidade de números sorteados por vez, ou
+      seja, as combinações devem ser de 6 em 6 números.
+    </p>
+    <img src="imagem9.jpeg" alt="image" height="150" width="200" />
+  </body>
+</html>

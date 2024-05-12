@@ -1,0 +1,57 @@
+/* Estilo para o cabeçalho */
+header {
+  background-color: green; /* Define a cor de fundo do cabeçalho como verde */
+  padding: 20px; /* Adiciona um pouco de espaço ao redor do texto */
+  text-align: center; /* Centraliza o texto no cabeçalho */
+  color: white; /* Define a cor do texto como branca para contraste com o fundo verde */
+  font-family: Arial, sans-serif; /* Define a fonte do texto */
+  font-size: 24px; /* Define o tamanho do texto */
+  margin: 0; /* Remove as margens */
+  margin-top: -20px; /* Define uma margem negativa para compensar qualquer espaço extra */
+}
+
+/* Estilo para o corpo da página */
+body {
+  margin: 0; /* Remova a margem padrão */
+  padding: 0; /* Remova o preenchimento padrão */
+}
+
+h2 {
+  text-align: center;
+}
+
+img {
+  display: block; /* Faz a imagem se comportar como um bloco para posicionar abaixo do texto */
+  margin: 10px 0 0; /* Adiciona um espaço entre o texto e a imagem e define a margem superior como 20px */
+}
+
+.test {
+  display: block;
+  margin: 10px 0 0;
+}
+
+main {
+  margin: 0 10rem;
+}
+
+.img_test {
+  padding: 10px;
+  width: 50%;
+  height: 50%;
+  cursor: pointer;
+}
+
+body {
+  text-align: center; /* Centraliza o conteúdo na página */
+}
+
+p {
+  width: 60%; /* Define a largura dos parágrafos */
+  margin: 0 auto; /* Centraliza os parágrafos horizontalmente */
+  text-align: left; /* Alinha o texto à esquerda dentro dos parágrafos */
+}
+
+.centered-img {
+  display: block; /* Faz a imagem se comportar como um bloco */
+  margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
